@@ -1,0 +1,20 @@
+{
+  "name": "simplepractice-qa-playwright-ts",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prepare": "playwright install --with-deps",
+    "test": "playwright test",
+    "test:headed": "PW_HEADLESS=false playwright test",
+    "codegen": "playwright codegen",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.2",
+    "dotenv": "^16.4.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4",
+    "zx": "^8.1.6"
+  }
+}
