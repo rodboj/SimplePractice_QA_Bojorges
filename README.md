@@ -13,7 +13,7 @@ The test flow  covers the following scenario:
 
 * Complete this task → verify that it was successfully marked as completed
 
-In addition, I added a Microsoft Excel File on the repository por the Analytical Part of the assesment.
+In addition, I added the TASKS_CHECKLIST.md for the Analytical Part of the assesment and a Microsoft Excel File with the same info, just in case.
 
 # Pre Prerequisites
 - Node 18+
